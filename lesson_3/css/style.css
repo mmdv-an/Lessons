@@ -1,0 +1,114 @@
+@import url("reset.css");
+
+div {
+	color: #636363;
+}
+
+h1.title {
+	color: #705C0A;
+}
+
+.content > h3 {
+	color: #967B0E;
+}
+
+.content .list {
+	color: #B09110;
+}
+
+.intro_text,
+.add {
+	color:  rgb(115, 115, 115);
+}
+
+.add + div {
+	color: rgb(135, 135, 135);
+}
+
+.white_container * {
+	color: rgb(214, 214, 214);
+}
+
+#white {
+	color: rgb(183, 183, 183);
+}
+
+.yellow_text p {
+	color: #E0B802;
+}
+
+.orange_container {
+	color: #E09D00;
+}
+
+#orange {
+	color: #E38D0B;
+}
+
+#red {
+	color: #BD4535;
+}
+
+.red_container > div {
+	color: #E66335;
+}
+
+.pink_container h3 {
+	color: #B57F94;
+}
+
+p.pink_text {
+	color: #DB9AB3;
+}
+
+.pink_text ~ p {
+	color: #CF91A9;
+}
+
+#purple {
+	color: #7465A6;
+}
+
+#blue {
+	color: #1c8094;
+}
+
+.blue_text.fvrt {
+	color: #1F8DA3;
+}
+
+.purple_container > p {
+	color: #A99AD9;
+}
+
+.green_container * {
+	color: #9CB34B;
+}
+
+#green {
+	color: #7B8C3B;
+}
+
+#brown {
+	color: #967336;
+}
+
+.brown_text {
+	color: #BD9044;
+}
+
+#grey {
+	color: #A1A1A1;
+}
+
+.grey_title + p {
+	color: #C7C7C7;
+}
+
+[class*="_ttl"] {
+	color: black;
+}
+
+.footer a {
+	color: #637185;
+}
