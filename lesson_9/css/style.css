@@ -1,0 +1,262 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Graduate:400&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap);
+
+body{
+	font-family: "Graduate", serif;
+	font-size: 18px;
+}
+
+body p:not(:last-child){
+	margin-bottom: 20px;
+}
+
+.header{
+	padding-top: 40px;
+}
+
+.header, .main{
+	margin-bottom: 40px;
+}
+
+[class*="__container"]{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.header__container{
+	margin-bottom: 20px;
+}
+
+.footer__container{
+	margin-bottom: 20px;
+}
+
+[class*="__text-box"]{
+	max-width: 655px;
+	margin: 0 auto;
+	line-height: 28px;
+	text-align: center;
+}
+
+[class*="__title"]{
+	max-width: 500px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 32px;
+	line-height: 34px;
+	font-weight: 700;
+	color: #122D87;
+	text-shadow: 4px 2px 5px #748CDB;
+	margin: 0 auto 20px;
+}
+
+.header__icons{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #3056D3;
+}
+
+.icons{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.icons img{
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.icon-white{
+	display: inline-block;
+	align-items: center;
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.button{
+	max-width: 85px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	box-shadow: 1px 3px 3px 0 #D4C71C;
+	text-align: center;
+	position: relative;
+	top: 0;
+	transition: all 0.3s;
+}
+
+.button:hover{
+	top: 3px;
+	box-shadow: 0 1px 0 0 #D4C71C;
+}
+
+.link{
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.content-icons{
+	display: none;
+	text-align: center;
+}
+
+.content__title{
+	color: #748CDB;
+	text-shadow: 4px 2px 4px #122D87;
+}
+
+.content-icons img{
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.content-icons:target {
+	display: block;
+	padding-top: 25px;
+}
+
+.main__text-box{
+	margin-bottom: 20px;
+}
+
+.main__design{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+
+.main-pricing{
+	font-size: 0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.blue-circle, .green-circle{
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: middle;
+	max-width: 400px;
+	border: 2px solid #D4DEFF;
+	box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.07);
+}
+
+.blue-circle{
+	border-radius: 8px 0 0 10px;
+	background: url("../img/design_elements/circle.svg") 0 100% no-repeat;
+}
+
+.green-circle{
+	border-radius: 0 10px 8px 0;
+	background: url("../img/design_elements/green_circle.svg") 100% 0 no-repeat;
+}
+
+.blue-circle p, .green-circle p{
+	padding: 45px 126px;
+}
+
+.blue-gradient{
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: middle;
+	z-index: 1;
+	max-width: 370px;
+	color: #FFFFFF;
+	border-radius: 8px;
+	background: url("../img/design_elements/light_oval.svg") 0 100% no-repeat, url("../img/design_elements/light_circle.svg") 100% 0 no-repeat, linear-gradient(180deg, #3056D3 0%, #6989F4 100%);
+}
+
+.blue-gradient p{
+	padding: 55px 50px;
+}
+
+.other_elements{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.other_elements img:not(:last-child){
+	margin-right: 60px;
+}
+
+.other_elements img{
+	vertical-align: middle;
+}
+
+
+.footer{
+	padding-bottom: 30px;
+}
+
+.girl{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.projects{
+	font-size: 0;
+	margin-bottom: 50px;
+}
+
+.first{
+	margin-bottom: 20px;
+}
+
+.second{
+	margin-bottom: 20px;
+}
+
+.projects img:not(:nth-child(3n)){
+	margin-right: 30px;
+}
+
+.projects img{
+	max-width: 370px;
+	max-height: 300px;
+}
+
+.team{
+	font-size: 0;
+	margin-bottom: 50px;
+}
+
+.team img:not(:last-child){
+	margin-right: 30px;
+}
+
+.team img{
+	max-width: 270px;
+	max-height: 330px;
+}
+
+.news{
+	font-size: 0;
+	margin-bottom: 60px;
+}
+
+.news img:not(:last-child){
+	margin-right: 30px;
+}
+
+.news img{
+	max-width: 370px;
+	max-height: 220px;
+}
+
+.other_people{
+	font-size: 0;
+}
+
+.other_people img:not(:last-child){
+	margin-right: 50px;
+}
